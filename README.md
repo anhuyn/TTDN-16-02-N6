@@ -71,27 +71,25 @@ Dự án cung cấp giải pháp toàn diện giúp doanh nghiệp theo dõi tà
 ## 2.1. Module Quản lý Nhân sự (`nhansu`)
 Module cung cấp công cụ quản lý toàn diện vòng đời của nhân viên trong doanh nghiệp, từ thông tin cơ bản đến chi tiết công/lương.
 
-
-
 ### Quản lý cơ cấu tổ chức
-*   **Quản lý Phòng ban**
-   <img width="605" height="182" alt="phong_ban" src="https://github.com/user-attachments/assets/972cd26f-170d-41e3-aab0-8c9899ee4f1a" />
-
-*   **Quản lý Chức vụ**
-<img width="605" height="148" alt="chuc_vu" src="https://github.com/user-attachments/assets/a33c0782-a6fa-4738-b334-b20bd6a078e5" />
-
-*   **Quản lý Nhân viên**
+|  ||
+|:---:|:---:|
+| <img width="605" height="182" alt="phong_ban" src="https://github.com/user-attachments/assets/972cd26f-170d-41e3-aab0-8c9899ee4f1a" /> | <img width="605" height="148" alt="chuc_vu" src="https://github.com/user-attachments/assets/a33c0782-a6fa-4738-b334-b20bd6a078e5" /> |
+| *Quản lý Phòng ban* | *Quản lý Chức vụ* |
 
 
-### Quản lý hồ sơ năng lực
-*   **Chứng chỉ & Bằng cấp**
- 
+|  ||
+|:---:|:---:|
+|  |  |
+| *Quản lý Nhân viên* | *Chứng chỉ & Bằng cấp* |
 
-*   **Danh sách chứng chỉ, bằng cấp**
- <img width="605" height="59" alt="danh_sach_chung_chi_bang_cap" src="https://github.com/user-attachments/assets/fc5ba350-f463-4fb7-a5ba-aff1436788fd" />
 
-*   **Lịch sử công tác**
-<img width="605" height="58" alt="lich_su_cong_tac" src="https://github.com/user-attachments/assets/681c5db2-3787-4bd7-bdeb-51b78d56c78d" />
+
+ |  ||
+|:---:|:---:|
+|  <img width="605" height="59" alt="danh_sach_chung_chi_bang_cap" src="https://github.com/user-attachments/assets/fc5ba350-f463-4fb7-a5ba-aff1436788fd" /> | <img width="605" height="58" alt="lich_su_cong_tac" src="https://github.com/user-attachments/assets/681c5db2-3787-4bd7-bdeb-51b78d56c78d" /> |
+| *Danh sách chứng chỉ, bằng cấp* | *Lịch sử công tác* |
+
 
 
 ### Quản lý chấm công & tiền lương
