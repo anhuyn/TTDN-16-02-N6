@@ -247,8 +247,8 @@ nhansu (Base Module)
 ### Bước 1: Clone dự án
 Tải mã nguồn về máy local:
 ```bash
-git clone https://github.com/nguyenngocdantruong/TTDN-15-04-N6.git
-cd TTDN-15-04-N6
+git clone https://github.com/anhuyn/TTDN-16-02-N6.git
+cd TTDN-16-02-N6
 # Checkout branch nếu cần
 # git checkout <branch_name>
 ```
@@ -311,17 +311,6 @@ python3 odoo-bin.py -c odoo.conf -d <database_name> -u nhansu,quan_ly_tai_san,qu
 *   Mở trình duyệt và truy cập: `http://localhost:8069/`
 *   Đăng nhập với tài khoản quản trị viên mặc định (nếu có) hoặc tạo cơ sở dữ liệu mới.
 
-## 4.3. Cài đặt Module
-
-### Thứ tự cài đặt khuyến nghị:
-1. **nhansu** - Module cơ sở, cần cài trước
-2. **quan_ly_tai_san** - Phụ thuộc vào `nhansu`
-3. **quan_ly_phong_hop** - Phụ thuộc vào cả `nhansu` và `quan_ly_tai_san`
-
-### Cài đặt trong Odoo UI:
-1. Vào **Apps** → Tìm kiếm module
-2. Click **Install** cho từng module theo thứ tự trên
-3. Hoặc sử dụng command line như ở Bước 6
 
 ### Xử lý lỗi "Internal Server Error" (localhost:8069)
 
@@ -347,85 +336,6 @@ Lỗi **Internal Server Error** khi mở `http://localhost:8069` thường do **
 
 ---
 
-# 5. Cấu trúc Module
-
-## 5.1. Module `nhansu`
-```
-nhansu/
-├── models/
-│   ├── phong_ban.py          # Phòng ban
-│   ├── chuc_vu.py            # Chức vụ
-│   ├── nhan_vien.py          # Nhân viên
-│   ├── cham_cong.py          # Chấm công
-│   ├── vi_pham_cham_cong.py  # Vi phạm chấm công
-│   ├── tang_ca.py            # Tăng ca
-│   ├── ky_luong.py           # Kỳ lương
-│   ├── bang_luong_thang.py   # Bảng lương tháng
-│   ├── chung_chi_bang_cap.py # Chứng chỉ, bằng cấp
-│   └── lich_su_cong_tac.py   # Lịch sử công tác
-├── views/                    # XML views
-├── security/                 # Access rights
-└── __manifest__.py
-```
-
-## 5.2. Module `quan_ly_tai_san`
-```
-quan_ly_tai_san/
-├── models/
-│   ├── danh_muc_tai_san.py   # Loại tài sản
-│   ├── tai_san.py            # Tài sản cụ thể
-│   ├── phan_bo_tai_san.py    # Phân bổ tài sản
-│   ├── don_muon_tai_san.py   # Đơn mượn tài sản
-│   ├── muon_tra_tai_san.py   # Mượn trả tài sản
-│   ├── luan_chuyen_tai_san.py # Luân chuyển
-│   ├── thanh_ly_tai_san.py   # Thanh lý
-│   ├── lich_su_khau_hao.py   # Khấu hao
-│   ├── kiem_ke_tai_san.py    # Kiểm kê
-│   ├── bao_tri_tai_san.py    # Bảo trì
-│   ├── mua_sam_tai_san.py    # Mua sắm
-│   ├── phieu_su_dung.py      # Phiếu sử dụng
-│   ├── location.py           # Địa điểm
-│   ├── dat_phong.py          # Đặt phòng (tài sản)
-│   └── dashboard.py         # Dashboard model
-├── views/
-│   ├── dashboard_overview.xml    # Dashboard tổng quan
-│   ├── dashboard_borrowing.xml   # Dashboard mượn trả
-│   └── ...
-├── static/
-│   ├── src/js/              # JavaScript cho dashboard
-│   └── src/css/             # CSS styling
-├── security/
-└── __manifest__.py
-```
-
-## 5.3. Module `quan_ly_phong_hop`
-```
-quan_ly_phong_hop/
-├── models/
-│   ├── phong_hop.py          # Phòng họp
-│   ├── dat_phong_hop.py      # Đặt phòng
-│   ├── dich_vu_phong_hop.py  # Dịch vụ
-│   ├── bao_tri_phong_hop.py  # Bảo trì phòng
-│   ├── tai_san_phong_hop.py  # Tài sản phòng họp
-│   ├── dashboard_phong_hop.py # Dashboard model
-│   └── wizard/               # Wizards
-│       ├── wizard_reject_booking.py
-│       ├── wizard_cancel_booking.py
-│       └── wizard_add_assets.py
-├── views/
-│   ├── dashboard_phong_hop.xml  # Dashboard view
-│   └── ...
-├── static/
-│   ├── src/js/dashboard_phong_hop.js  # Dashboard JavaScript
-│   └── src/css/dashboard.css          # Dashboard CSS
-├── data/
-│   ├── ir_sequence_data.xml   # Sequences
-│   └── ir_cron_data.xml       # Cron jobs
-├── security/
-└── __manifest__.py
-```
-
----
 
 # 6. Tính năng nổi bật
 
@@ -450,4 +360,4 @@ quan_ly_phong_hop/
 
 ---
 
-© 2024 Nhóm TTDN-16-02-N6. All rights reserved.
+© 2026 Nhóm TTDN-16-02-N6. All rights reserved.
