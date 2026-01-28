@@ -8,10 +8,11 @@
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/logo/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
-    </p>
+        <img width="170" height="1687" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/b5f005cd-ce9e-4c06-a78c-b603dbec1797" />
+        <img width="180" height="3693" alt="fitdnu_logo" src="https://github.com/user-attachments/assets/8de14090-da96-4f53-a0c7-84bf8778b724" />
+        <img width="200" height="1024" alt="dnu_logo" src="https://github.com/user-attachments/assets/2cbd709c-a0f8-462e-9f9d-1db0f8aa4261" />
+
+ </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
 [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
@@ -30,6 +31,12 @@ Dự án Module Quản lý Tài sản & Quản lý Phòng họp được xây d�
 *Quản lý tài sản: danh sách tài sản, gán tài sản, theo dõi tình trạng và bảo trì*
 
 *Quản lý phòng họp: quản lý phòng, đặt phòng, kiểm soát trùng lịch, gắn tài sản cho phòng*
+
+**Ứng dụng công nghệ mới**
+
+*AI/LLM: trợ lý ảo hướng dẫn quy trình, tóm tắt nội dung họp, OCR hóa đơn/chứng từ*
+
+*External API: đồng bộ Google Calendar, gửi thông báo qua Zalo/Telegram/Email*
 
 
 ## 🔧 2. Các công nghệ được sử dụng
@@ -67,8 +74,9 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 **Các tính năng chính:**
 
 ### Quản lý cơ cấu tổ chức
-*   **Quản lý Phòng ban (`phong_ban`):** Cấu trúc phòng ban phân cấp, định biên nhân sự, quản lý cây tổ chức.
-*   **Quản lý Chức vụ (`chuc_vu`):** Định nghĩa chức danh, cấp bậc và mô tả công việc.
+*   **Quản lý Phòng ban
+   
+*   **Quản lý Chức vụ 
 
 ### Hồ sơ nhân viên
 *   **Quản lý Nhân viên (`nhan_vien`):** Lưu trữ thông tin cá nhân, liên hệ, tài khoản ngân hàng, phòng ban, chức vụ.
