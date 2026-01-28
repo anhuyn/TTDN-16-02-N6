@@ -71,45 +71,54 @@ Dự án cung cấp giải pháp toàn diện giúp doanh nghiệp theo dõi tà
 ## 2.1. Module Quản lý Nhân sự (`nhansu`)
 Module cung cấp công cụ quản lý toàn diện vòng đời của nhân viên trong doanh nghiệp, từ thông tin cơ bản đến chi tiết công/lương.
 
-**Các tính năng chính:**
+
 
 ### Quản lý cơ cấu tổ chức
 *   **Quản lý Phòng ban
-   
-*   **Quản lý Chức vụ 
+   <img width="605" height="182" alt="phong_ban" src="https://github.com/user-attachments/assets/972cd26f-170d-41e3-aab0-8c9899ee4f1a" />
 
-### Hồ sơ nhân viên
-*   **Quản lý Nhân viên (`nhan_vien`):**
-* 
+*   **Quản lý Chức vụ 
+<img width="605" height="148" alt="chuc_vu" src="https://github.com/user-attachments/assets/a33c0782-a6fa-4738-b334-b20bd6a078e5" />
+
+*   **Quản lý Nhân viên 
+
 
 ### Quản lý hồ sơ năng lực
-*   **Chứng chỉ & Bằng cấp (`chung_chi_bang_cap`):** Danh mục các loại chứng chỉ, bằng cấp.
-*   **Danh sách chứng chỉ, bằng cấp:** Gán chứng chỉ cho nhân viên, theo dõi thời hạn hiệu lực.
-*   **Lịch sử công tác (`lich_su_cong_tac`):** Ghi nhận quá trình thăng tiến, thuyên chuyển công tác, thay đổi chức vụ/phòng ban.
+*   **Chứng chỉ & Bằng cấp
+ 
+
+*   **Danh sách chứng chỉ, bằng cấp
+ <img width="605" height="59" alt="danh_sach_chung_chi_bang_cap" src="https://github.com/user-attachments/assets/fc5ba350-f463-4fb7-a5ba-aff1436788fd" />
+
+*   **Lịch sử công tác
+<img width="605" height="58" alt="lich_su_cong_tac" src="https://github.com/user-attachments/assets/681c5db2-3787-4bd7-bdeb-51b78d56c78d" />
+
 
 ### Quản lý chấm công & tiền lương
-*   **Chấm công (`cham_cong`):** Ghi nhận giờ vào/ra, tự động tính giờ làm việc, trạng thái (đúng giờ, muộn, về sớm).
-*   **Vi phạm chấm công (`vi_pham_cham_cong`):** Tự động phát hiện và ghi nhận:
-    *   Đi muộn
-    *   Về sớm
-    *   Thiếu giờ làm
-    *   Quên checkout
-*   **Tăng ca (`tang_ca`):** Quản lý đăng ký và phê duyệt làm thêm giờ, phân loại ngày làm việc.
-*   **Kỳ lương (`ky_luong`):** Quản lý các kỳ lương theo tháng.
-*   **Bảng lương tháng (`bang_luong_thang`):** Tính lương tự động theo ngày công hoặc giờ làm việc, tích hợp các khoản khấu trừ và phụ cấp.
+*   **Chấm công
+*   **Vi phạm chấm công 
+    <img width="605" height="77" alt="vi_pham_cham_cong" src="https://github.com/user-attachments/assets/7cca7765-c61e-4da1-8067-a246322f59d1" />
 
-### Tính năng khác
-*   **Tracking:** Theo dõi lịch sử tạo và chỉnh sửa bản ghi hệ thống.
-*   **Tích hợp:** Module được sử dụng làm nền tảng cho các module khác (`quan_ly_tai_san`, `quan_ly_phong_hop`).
+*   **Tăng ca
+
+  
+*   **Kỳ lương
+
+  
+*   **Bảng lương tháng
+
+  
+
 
 ## 2.2. Module Quản lý Tài sản (`quan_ly_tai_san`)
 Module tập trung vào việc giám sát, định giá và tối ưu hóa hiệu suất sử dụng tài sản của doanh nghiệp.
 
-**Các tính năng chính:**
 
 ### Dashboard & Báo cáo
-*   **Dashboard Tổng quan:** Hiển thị KPI về tài sản (tổng số, đang sử dụng, chưa sử dụng, đã thanh lý), giá trị tài sản, biểu đồ phân bổ theo phòng ban và loại tài sản.
-*   **Dashboard Mượn trả:** Thống kê đơn mượn đang chờ duyệt, tài sản đang được mượn, top tài sản được mượn nhiều nhất, danh sách tài sản quá hạn chưa trả.
+*   **Dashboard Tổng quan
+  
+*   **Dashboard Mượn trả
+  
 
 ### Quản lý danh mục & Tài sản
 *   **Loại tài sản (`danh_muc_tai_san`):** Phân loại tài sản (ví dụ: Thiết bị điện tử, Nội thất, Phương tiện đi lại).
