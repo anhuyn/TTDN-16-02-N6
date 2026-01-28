@@ -79,7 +79,8 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 *   **Quản lý Chức vụ 
 
 ### Hồ sơ nhân viên
-*   **Quản lý Nhân viên (`nhan_vien`):** Lưu trữ thông tin cá nhân, liên hệ, tài khoản ngân hàng, phòng ban, chức vụ.
+*   **Quản lý Nhân viên (`nhan_vien`):**
+* 
 
 ### Quản lý hồ sơ năng lực
 *   **Chứng chỉ & Bằng cấp (`chung_chi_bang_cap`):** Danh mục các loại chứng chỉ, bằng cấp.
