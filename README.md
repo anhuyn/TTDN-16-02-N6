@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    Youth Union Member Management
+   PLATFORM ERP
 </h2>
 <div align="center">
     <p align="center">
@@ -20,7 +20,17 @@
 </div>
  
 ## 📖 1. Giới thiệu
-Hệ thống Quản lý Đoàn viên trong trường Đại học được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá hoạt động của Đoàn Thanh niên trong môi trường giáo dục đại học. Thay vì quản lý thủ công bằng giấy tờ hay các tệp Excel rời rạc, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng.
+Trong quá trình vận hành, doanh nghiệp thường gặp khó khăn trong việc quản lý tài sản và phòng họp do dữ liệu phân tán, đặt lịch thủ công và thiếu công cụ theo dõi tập trung. Điều này dẫn đến trùng lịch, thất thoát tài sản và giảm hiệu quả sử dụng nguồn lực.
+Dự án Module Quản lý Tài sản & Quản lý Phòng họp được xây dựng nhằm số hóa và tự động hóa các quy trình quản lý, giúp doanh nghiệp sử dụng tài nguyên hiệu quả và minh bạch hơn.
+
+**Các tính năng chính:**
+
+*Quản lý nhân sự: hồ sơ,cơ cấu tổ chức, tính lương*
+
+*Quản lý tài sản: danh sách tài sản, gán tài sản, theo dõi tình trạng và bảo trì*
+
+*Quản lý phòng họp: quản lý phòng, đặt phòng, kiểm soát trùng lịch, gắn tài sản cho phòng*
+
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
