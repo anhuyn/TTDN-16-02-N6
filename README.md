@@ -172,66 +172,8 @@ Giải pháp tối ưu hóa việc sử dụng không gian chung, tích hợp ch
         *   Kết quả & Ghi chú: Kết quả và ghi chú bổ sung
         *   Lịch sử bảo trì phòng: Tất cả các phiếu bảo trì của phòng
 
-### Tích hợp
-*   **Tích hợp với `nhansu`:**
-    *   Sử dụng thông tin nhân viên, phòng ban, chức vụ
-    *   Chọn tham dự theo chức vụ và phòng ban khi đặt phòng
-    *   Khi nhân viên nghỉ việc: tự động hủy booking tương lai
-*   **Tích hợp với `quan_ly_tai_san`:**
-    *   Gắn tài sản từ module quản lý tài sản vào phòng họp
-    *   Xem và quản lý lịch sử bảo trì, sử dụng, mua sắm của tài sản
-    *   Tạo phiếu bảo trì cho tài sản từ phòng họp
-    *   Đồng bộ trạng thái maintenance của phòng với khả năng đặt phòng
 
----
 
-# 3. Kiến trúc & Tích hợp Module
-
-## 3.1. Mối quan hệ giữa các module
-
-```
-nhansu (Base Module)
-    ├── quan_ly_tai_san (Depends on nhansu)
-    │   ├── Sử dụng: nhan_vien, phong_ban, chuc_vu
-    │   └── Cung cấp: tai_san, location, bao_tri_tai_san, mua_sam_tai_san
-    │
-    └── quan_ly_phong_hop (Depends on nhansu, quan_ly_tai_san)
-        ├── Sử dụng: nhan_vien, phong_ban, chuc_vu (từ nhansu)
-        ├── Sử dụng: tai_san, location, bao_tri_tai_san (từ quan_ly_tai_san)
-        └── Tích hợp: Gắn tài sản vào phòng, quản lý bảo trì, sử dụng
-```
-
-## 3.2. Workflow tích hợp
-
-### Workflow Nhân viên nghỉ việc
-1. HR set trạng thái nhân viên = "terminated"
-2. Tự động tạo tasks:
-   - Thu hồi tài sản đang giữ (`quan_ly_tai_san`)
-   - Hủy/Chuyển booking tương lai (`quan_ly_phong_hop`)
-
-### Workflow Đặt phòng họp
-1. Nhân viên đặt phòng (`quan_ly_phong_hop`)
-2. Chọn tham dự theo chức vụ/phòng ban (`nhansu`)
-3. Tự động kiểm tra xung đột lịch
-4. Manager duyệt (nếu cần)
-5. Facilities chuẩn bị dịch vụ
-6. Check-in phòng
-7. Kết thúc/Release phòng
-
-### Workflow Bảo trì phòng
-1. Tạo phiếu bảo trì (`quan_ly_phong_hop`)
-2. Chọn tài sản cần bảo trì (`quan_ly_tai_san`)
-3. Tự động chuyển phòng sang trạng thái "maintenance"
-4. Hủy các booking trong thời gian bảo trì
-5. Tạo phiếu bảo trì tài sản (`quan_ly_tai_san`)
-6. Hoàn thành → Khôi phục phòng về "available"
-
-### Workflow Cấp phát tài sản
-1. Nhân viên tạo yêu cầu (`quan_ly_tai_san`)
-2. Manager duyệt
-3. Asset Admin cấp phát
-4. Nhân viên ký nhận
-5. Tự động cập nhật phân bổ
 
 ---
 
@@ -333,30 +275,6 @@ Lỗi **Internal Server Error** khi mở `http://localhost:8069` thường do **
 
 4. **Tạo database nếu chưa có**
    - Vào `http://localhost:8069/web/database/selector` (nếu không bị lỗi kết nối) và tạo database mới, sau đó cài đặt module.
-
----
-
-
-# 6. Tính năng nổi bật
-
-## 6.1. Dashboard nâng cao
-*   **Dashboard Quản lý Tài sản:** Tổng quan tài sản, phân bổ, mượn trả với biểu đồ trực quan (Chart.js)
-*   **Dashboard Quản lý Phòng họp:** Trung tâm điều hành với heatmap, KPI chiến lược, phân tích hiệu suất, bộ lọc nâng cao
-
-## 6.2. Tích hợp liền mạch
-*   Tích hợp chặt chẽ giữa 3 module: Nhân sự ↔ Tài sản ↔ Phòng họp
-*   Workflow tự động: Offboarding → Thu hồi tài sản + Hủy booking
-*   Đồng bộ trạng thái: Bảo trì phòng → Hủy booking tự động
-
-## 6.3. Quy trình phê duyệt
-*   Đơn mượn tài sản: Workflow phê duyệt đầy đủ
-*   Đặt phòng họp: Phê duyệt theo quy tắc (thời lượng, ngoài giờ, số người)
-*   Bảo trì: Quy trình từ lên lịch đến hoàn thành
-
-## 6.4. Quản lý chi tiết
-*   **Tài sản phòng họp:** Các tab chi tiết về lịch sử bảo trì, sử dụng, mua sắm
-*   **Bảo trì phòng:** Quản lý chi tiết từ thông tin, tài sản, chi phí đến lịch sử
-*   **Đặt phòng:** Tích hợp HR để chọn tham dự theo chức vụ và phòng ban
 
 ---
 
