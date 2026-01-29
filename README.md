@@ -103,13 +103,11 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 #### Tăng ca
 ![Tăng ca](./images/tang_ca_OT.png)
 
-  
-*   Kỳ lương
-  <img src="images/cham_cong.png" width="800"/>
-  
-*   Bảng lương tháng
-  <img src="images/bang_luong_thang.png" width="800"/>
-  
+ ### Kỳ lương 
+![Kỳ lương](./images/cham_cong.png)
+
+### Bảng lương tháng 
+![Kỳ lương](./images/bang_luong_thang.png)
 
 
 ## 2.2. Module Quản lý Tài sản (`quan_ly_tai_san`)
