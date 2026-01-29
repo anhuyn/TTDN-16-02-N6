@@ -93,20 +93,20 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 
 
 ### Quản lý chấm công & tiền lương
-*   **Chấm công
+*   Chấm công
   <img src="images/cham_cong.png" width="800"/>
-*   **Vi phạm chấm công 
+*   Vi phạm chấm công 
   <img src="images/vi_pham_cham_cong.png" width="800"/>
 
-*   **Tăng ca
+*   Tăng ca
   <img src="images/cham_cong.png" width="800"/>
 
   
-*   **Kỳ lương
-
+*   Kỳ lương
+  <img src="images/cham_cong.png" width="800"/>
   
-*   **Bảng lương tháng
-
+*   Bảng lương tháng
+  <img src="images/bang_luong_thang.png" width="800"/>
   
 
 
