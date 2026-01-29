@@ -98,6 +98,8 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
     <img width="605" height="77" alt="vi_pham_cham_cong" src="https://github.com/user-attachments/assets/7cca7765-c61e-4da1-8067-a246322f59d1" />
 
 *   **Tăng ca
+ <img width="605" height="77" alt="vi_pham_cham_cong" src="tang_ca_OT.png" />
+
 
   
 *   **Kỳ lương
