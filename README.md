@@ -95,7 +95,7 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 ### Quản lý chấm công & tiền lương
 *   **Chấm công
 *   **Vi phạm chấm công 
-    <img width="605" height="77" alt="vi_pham_cham_cong" src="https://github.com/user-attachments/assets/7cca7765-c61e-4da1-8067-a246322f59d1" />
+    <img src="images/vi_pham_cham_cong.png" width="800"/>
 
 *   **Tăng ca
   <img src="images/cham_cong.png" width="800"/>
