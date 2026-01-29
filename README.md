@@ -100,6 +100,8 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 
 *   Tăng ca
   <img src="images/cham_cong.png" width="800"/>
+  
+![Tăng ca](./images/cham_cong.png)
 
   
 *   Kỳ lương
