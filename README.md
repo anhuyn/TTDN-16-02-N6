@@ -101,7 +101,7 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
 ![Vi phạm chấm công](./images/vi_pham_cham_cong.png)
 
 #### Tăng ca
-![Tăng ca](./images/tang_ca.png)
+![Tăng ca](./images/tang_ca_OT.png)
 
   
 *   Kỳ lương
