@@ -97,10 +97,9 @@ Module cung cấp công cụ quản lý toàn diện vòng đời của nhân vi
   <img src="images/cham_cong.png" width="800"/>
 *   Vi phạm chấm công 
   <img src="images/vi_pham_cham_cong.png" width="800"/>
+  ![Vi phạm chấm công](./images/vi_pham_cham_cong.png)
 
 *   Tăng ca
-  <img src="images/cham_cong.png" width="800"/>
-  
 ![Tăng ca](./images/cham_cong.png)
 
   
